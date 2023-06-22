@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background image demo</title>
+</head>
+<!--
+    1.Background color
+    2.Background image/ URL/ Local
+    3.Background Size
+    4.Background Repeat
+    5.Bacjground position
+    6.Background Attachment
+    7.Background Sorthand
+
+-->
+<style type="text/css">
+    body{
+        /* background-color: red; */
+        background-image: url(Image/Screenshot_20230228_105815.png);
+        background-size: cover; /*If image size is bigger than the screen, then use this line. */
+        background-repeat: no-repeat; /* If image size is less than the whole screen, then use this line 
+        otherwise same picture would be repeate many times.  */
+        background-position: right center; /* To make the image to the center */
+        Background-Attachment:fixed; /* If we have page bigger than the screen and to see the content
+                                        scrolling the page down then background image also would be scroll,
+                                        so to fix the background image, we are using this line. */ 
+        /* background: url('Image/Screenshot_20230228_105815.png') cover no-repeat right center fixed; */
+
+
+
+    }
+    div{
+        color:red;
+        font-size: 25px;
+    }
+
+
+</style>
+<body style="height: 800px;">
+    <h1>Background image demo</h1>
+    <div style="width:200px">Hello world Hello world Hello world Hello world Hello world Hello world Hello world
+        Hello world Hello world Hello world Hello worldHello worldHello world Hello worldHello world Hello world 
+        Hello world Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHelloHello world
+        Hello world Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello world
+        Hello world Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello
+        Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello
+        Hello world Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello
+        Hello world Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello worldHello world
+        Hello world</div>
+
+    
+</body>
+</html>

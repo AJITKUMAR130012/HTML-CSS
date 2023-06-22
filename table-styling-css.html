@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-styling Demo</title>
+</head>
+<style>
+        #case1{
+
+        max-width: 900px;
+        margin: auto;
+        
+    }
+    h1{
+        text-align: center;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    table, tr,th,td{
+        border: 2px black solid;
+    }
+    th{
+        background-color: green;
+        color:bisque;
+        height: 50px;
+    }
+    tr{
+        height: 40px;
+    }
+    tr:hover{
+        background-color: hwb(232 82% 12%);
+    }
+
+    td{
+        padding-left:30px;
+    }
+
+
+
+
+</style>
+
+<body>
+    <h1>Table</h1>
+    <div id="case1">
+
+        <table >
+            <tr>
+                <th> Id</th>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Marks</th>
+            </tr>
+            <tr id="case3">
+                <td>1</td>
+                <td>Ajit</td>
+                <td>M21CS017</td>
+                <td> 98</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rohit</td>
+                <td>M21CS015</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jay</td>
+                <td>M21CS018</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sujay</td>
+                <td>M21CS019</td>
+                <td>95</td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>

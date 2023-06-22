@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms Introduction</title>
+    </head>
+    <body>
+        <form action="xyz.php" autocomplete="off" methode="GET"> 
+            <label>Email</label> <br> 
+            <input type="email", name="email"> <br>
+            <label>Password</label> <br>
+            <input type="password", name="password"> <br>
+            <input type="submit" , name="", value="Login">  
+        </form>
+    </body>
+    <body>
+        <form>
+            <label>Bio:</label><br>
+            <textarea rows="25" cols="60"> </textarea><br>
+            <lable>Year:</lable><br>
+            <select>
+                <option>First Year</option>
+                <option>Second Year</option>
+                <option>Third Year</option>
+                <option>Fourth Year</option>
+            </select>
+            <br>
+            <label>Year in Group:</label><br>
+            <select>
+                <optgroup>
+                    <option>First Year</option>
+                    <option>Second Year</option>
+                </optgroup>
+                <optgroup>
+                    <option>Third Year</option>
+                    <option>Fourth Year</option>
+                </optgroup>
+            </select>
+            <br>
+            <label>Year in Hint:</label><br>
+            <select>
+                <input list="Phone" name="">
+                <datalist id="Phone">
+                    <option value="Apple">
+                    <option value="Samsung">
+                    <option value="Microphone">
+                </datalist>
+            </select>
+
+            
+            <fieldset>
+                <legend>Education Info:</legend><br>
+                <label>10th marks</label><br>
+                <input type="10 marks" name=""><br>
+                <label>12th marks</label><br>
+                <input type="12 marks" name=""><br>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
